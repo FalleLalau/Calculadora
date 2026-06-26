@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tudo {
+  background-color: #000000;
+  height: 70vh;
+  width: 20vw;
+  border-radius: 30px;
+}
+
+.tudo input {
+  margin-top: 20px;
+  height: 21vh;
+  width: 98%;
+  border-radius: 10px;
+  color: white;
+  text-align: end;
+  font-size: 100px;
+}
+
+.button {
+  padding: 10px;
+  color: rgb(216, 214, 214);
+  display: grid;
+  grid-template-columns: repeat(4, 84px);
+  row-gap: 3px;
+  justify-content: center;
+}
+
+.top-row {
+  background-color: #5b5b5b;
+}
+
+button {
+  background-color: gray;
+  font-size: xx-large;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  color: rgb(216, 214, 214);
+}
+
+.operation {
+  color: rgb(216, 214, 214);
+  background-color: orange;
+}
